@@ -25,6 +25,7 @@ Este proyecto implementa el **Patrón de Diseño Strategy** en Java para la gene
 ---
 
 ## 📁 Estructura del Proyecto
+
 src/
 ├─ controller/          # Endpoints REST para la generación de reportes
 │   └─ StrategyController.java
@@ -45,6 +46,7 @@ src/
 │   └─ (Repositorios específicos para cada entidad)
 └─ service/             # Lógica de negocio y servicios
 └─ (Servicios base y personalizados)
+
 
 ---
 
