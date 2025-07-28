@@ -24,32 +24,28 @@ Este proyecto implementa el **Patrón de Diseño Strategy** en Java para la gene
 
 ---
 
-# 📁 Estructura del Proyecto
-
+📁 Estructura del Proyecto
 src/
-├─ controller/          # Endpoints REST para la generación de reportes
-│   └─ StrategyController.java
-├─ strategy/            # Implementación del Patrón Strategy
-│   ├─ IReport.java     # Interfaz de la estrategia (contrato común)
-│   ├─ ReportFactory.java # Fábrica para obtener la estrategia correcta
-│   ├─ AlumnoStrategy.java
-│   ├─ ProfesorStrategy.java
-│   └─ DirectorStrategy.java
-├─ entity/              # Modelos de datos del dominio
-│   ├─ Alumno.java
-│   ├─ Profesor.java
-│   ├─ Director.java
-│   ├─ Materia.java
-│   ├─ Curso.java
-│   └─ Base.java        # Clase base para entidades
-├─ repository/          # Capa de acceso a datos (Spring Data JPA)
-│   └─ (Repositorios específicos para cada entidad)
-└─ service/             # Lógica de negocio y servicios
-└─ (Servicios base y personalizados)
-
-
-
-
+ ├─ controller/
+ │   ├─ (controladores para cada entidad)
+ │   └─ StrategyController.java
+ ├─ strategy/
+ │   ├─ IReport.java
+ │   ├─ ReportFactory.java
+ │   ├─ AlumnoStrategy.java
+ │   ├─ ProfesorStrategy.java
+ │   └─ DirectorStrategy.java
+ ├─ entity/
+ │   ├─ Alumno.java
+ │   ├─ Profesor.java
+ │   ├─ Director.java
+ │   ├─ Materia.java
+ │   ├─ Curso.java
+ │   └─ Base.java
+ ├─ repository/
+ │   └─ (repositorios para cada entidad)
+ └─ service/
+     └─ (servicios base + personalizados)
 ---
 
 ## 📊 Contenido de Reportes
