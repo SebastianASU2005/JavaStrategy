@@ -34,26 +34,25 @@ El principal objetivo de este proyecto es ilustrar cómo el **Patrón Strategy**
 
 src/
  ├─ controller/          # Endpoints REST para la generación de reportes
- │   ├─ (controladores específicos si los hay)
- │   └─ StrategyController.java
+ │   ├─ (controladores específicos si los hay)
+ │   └─ StrategyController.java
  ├─ strategy/            # Implementación del Patrón Strategy
- │   ├─ IReport.java       # Interfaz de la estrategia (contrato común)
- │   ├─ ReportFactory.java # Fábrica para obtener la estrategia correcta
- │   ├─ AlumnoStrategy.java
- │   ├─ ProfesorStrategy.java
- │   └─ DirectorStrategy.java
+ │   ├─ IReport.java       # Interfaz de la estrategia (contrato común)
+ │   ├─ ReportFactory.java # Fábrica para obtener la estrategia correcta
+ │   ├─ AlumnoStrategy.java
+ │   ├─ ProfesorStrategy.java
+ │   └─ DirectorStrategy.java
  ├─ entity/              # Modelos de datos del dominio
- │   ├─ Alumno.java
- │   ├─ Profesor.java
- │   ├─ Director.java
- │   ├─ Materia.java
- │   ├─ Curso.java
- │   └─ Base.java          # Clase base para entidades
+ │   ├─ Alumno.java
+ │   ├─ Profesor.java
+ │   ├─ Director.java
+ │   ├─ Materia.java
+ │   ├─ Curso.java
+ │   └─ Base.java          # Clase base para entidades
  ├─ repository/          # Capa de acceso a datos (Spring Data JPA)
- │   └─ (repositorios específicos para cada entidad)
+ │   └─ (repositorios específicos para cada entidad)
  └─ service/             # Lógica de negocio y servicios
-      └─ (servicios base + personalizados)
-
+      └─ (servicios base + personalizados)
 ---
 
 📊 **Ejemplos de Contenido de Reportes**  
