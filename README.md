@@ -46,6 +46,7 @@ src/
  │   └─ (repositorios para cada entidad)
  └─ service/
      └─ (servicios base + personalizados)
+
 ---
 
 ## 📊 Contenido de Reportes
